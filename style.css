@@ -1,0 +1,17 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    border: 2px solid black;
+}
+
+.home,.about,.help{
+    padding: 10px;
+}
+
+.home{
+    grid-template-rows: 1/span 12;
+}
